@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
 
 
 import numpy as np
@@ -305,7 +301,7 @@ plt.show()
 # In[ ]:
 
 
-error('2*x/t**2')
+error('2*x/t**2')  #Example
 
 
 # In[ ]:
