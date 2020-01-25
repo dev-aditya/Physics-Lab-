@@ -115,7 +115,7 @@ def Rienmannsum(f,a,b):
 
 
 
-
+"""N X N Matrix equation solving"""
 
 import numpy as N
 import numpy.linalg as la
