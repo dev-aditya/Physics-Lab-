@@ -3,6 +3,7 @@
 
 # In[1]:
 
+'''Try not to alter the code and run the program as it is.'''
 
 import numpy as np
 from sympy import *
@@ -60,7 +61,8 @@ def gauss(m):
     
     return (1/(sig*sqrt(2*pi)))*exp(-(x-mu)**2/(2*(sig)**2)) #gives out the gaussian distribution function
     
-
+ '''This fucction takes the expression in a string format and then ask user for the number of variables and their symbols and respective mean
+     and standard deviation and returns the error in the dependent variable'''    
 def error(exp):
     
     ex = sympify(exp)
@@ -279,7 +281,7 @@ for i in p4_n:
 
 
 # In[9]:
-
+'''Position v/s time graph for magnet falling through the metal pipe'''
 
 k = np.array([0,20.3,21.2+20.3,21.2+20.3+20.1])*10**(-2)
 
@@ -305,7 +307,7 @@ plt.show()
 # In[3]:
 
 
-error('(65*m*g*a**4)/(45*(pi**2)*tau*v*(3.936*10**(-7))**2)')
+error('(65*m*g*a**4)/(45*(pi**2)*tau*v*(3.936*10**(-7))**2)')   #the expression for conductivity
 
 
 # In[ ]:
