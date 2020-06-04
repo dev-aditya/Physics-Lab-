@@ -1,4 +1,4 @@
 PHY102
 ===========
 
-__Python__ codes for lab couser PHY102.
+__Python__ codes for lab course PHY102.
